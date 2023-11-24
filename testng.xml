@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End To End EriBank Automation">
+    <test name="Login Page">
+        <classes>
+            <class name="LoginPageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Balance Page">
+        <classes>
+            <class name="BalancePageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Payment Page">
+        <classes>
+            <class name="PaymentPageTest"></class>
+        </classes>
+    </test>
+
+</suite>
